@@ -3,7 +3,7 @@ package runner;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-/** Hooks de Cucumber equivalentes a los del proyecto api_v6. */
+/** Hooks de Cucumber*/
 public class Runner {
     @Before
     public void beforeScenario() {

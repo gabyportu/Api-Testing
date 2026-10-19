@@ -16,7 +16,7 @@ import java.util.Map;
 
 import static org.hamcrest.Matchers.equalTo;
 
-/** Pasos Gherkin. FactoryRequest ejecuta cada solicitud como en api_v6. */
+/** Pasos Gherkin.*/
 public class TodoLySteps {
     private final Map<String, String> variables = new HashMap<>();
     private Response response;
@@ -72,7 +72,7 @@ public class TodoLySteps {
         }
     }
 
-    /** Paso generico inspirado en MyStepdefsClean de api_v6. */
+    /** Paso generico*/
     @When("send {word} request {string} with")
     public void sendRequestWithToken(String method, String path, String body) {
         String url = Configuration.BASE_URL + replaceVariables(path);

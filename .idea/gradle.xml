@@ -6,6 +6,12 @@
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../../../../ProgramData/chocolatey/lib/gradle/tools/gradle-9.8.0" />
+        <option name="gradleJvm" value="21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
